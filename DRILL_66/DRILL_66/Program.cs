@@ -11,40 +11,27 @@ namespace DRILL_66
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Type a number to multiply by 50");
-            string inputOne = Console.ReadLine();
-            int numOne = Convert.ToInt32(inputOne);
-            int totalOne = 50 * numOne;
-            Console.WriteLine(totalOne);
-            
+            Console.WriteLine("Anonymous Income Comparison Program");
+            Console.WriteLine("Enter hourly rate then hours worked for both person 1 and 2");
 
-            Console.WriteLine("Type a number to add 25 to");
-            string inputTwo = Console.ReadLine();
-            int numTwo = Convert.ToInt32(inputTwo);
-            int totalTwo = numTwo + 25;
-            Console.WriteLine(totalTwo);
+            Console.WriteLine("Person 1");
+            Decimal rate1 = Convert.ToDecimal(Console.ReadLine());
+            short hours1 = Convert.ToInt16(Console.ReadLine());
 
-            Console.WriteLine("Type a number to divide by 12.5");
-            string inputThree = Console.ReadLine();
-            int numThree = Convert.ToInt32(inputThree);
-            double totalThree = numThree / 12.5;
-            Console.WriteLine(totalThree);
-          
+            Console.WriteLine("Person 2");
+            Decimal rate2 = Convert.ToDecimal(Console.ReadLine());
+            short hours2 = Convert.ToInt16(Console.ReadLine());
 
-            Console.WriteLine("Type a number to check if it is greater than 50");
-            string inputFour = Console.ReadLine();
-            int numFour = Convert.ToInt32(inputFour);
-            bool truthorfalse = numFour > 50;
-            Console.WriteLine(truthorfalse.ToString());
-            
+            Console.WriteLine("Weekly salary of Person 1:");
+            Console.WriteLine(rate1 * hours1);
 
-            Console.WriteLine("Type a number to divide by 7 and show the remainder");
-            string inputFive = Console.ReadLine();
-            int numFive = Convert.ToInt32(inputFive);
-            int remain = 7 % numFive;
-            Console.WriteLine(remain);
-            Console.ReadLine();
-            
+            Console.WriteLine("Weekly salary of Person 2:");
+            Console.WriteLine(rate2 * hours2);
+
+            Console.WriteLine("Does Person 1 make more money than Person 2?");
+            Boolean makeMore = (rate1 * hours1) > (rate2 * hours2);
+            Console.WriteLine(makeMore);
+
 
 
 
