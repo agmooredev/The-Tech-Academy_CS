@@ -99,9 +99,17 @@ namespace DRILL_103
             {
                 foreach (string musicInput in elecMusic) 
                 {
-                    if (_musicInput == musicInput)
+                    if (_musicInput == "Trance")
+                    {
+                        Console.WriteLine("This entry appears in the list twice. The indices are 0, and 5.");
+                        
+
+                    }
+                    else if (_musicInput == musicInput)
                     {
                         Console.WriteLine("This music style already exists in the list.");
+                        Console.WriteLine(elecMusic.IndexOf(musicInput));
+
                     }
                 }
             }
