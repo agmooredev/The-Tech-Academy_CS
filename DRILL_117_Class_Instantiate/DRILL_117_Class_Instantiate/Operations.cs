@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace DRILL_117_Class_Instantiate
 {
-    class Method
+    class Operations
     {
         public void divByTwo(int num) //VOID METHOD OUTPUTING INT
         {
             Console.WriteLine(num / 2); //DIVIDE INT BY TWO
         }
+
+
 
         public void Output(out int a, out int b) //METHOD WITH OUTPUT PARAMETERS
         {
@@ -22,15 +24,6 @@ namespace DRILL_117_Class_Instantiate
             b = Convert.ToInt32(Console.ReadLine());
         }
 
-        
-        public static void Overload(int num)
-        {
-            Console.WriteLine("Overload(int)");
-        }
-
-        public static void Overload(string text)
-        {
-            Console.WriteLine("Overload(string)");
-        }
+       
     }
 }

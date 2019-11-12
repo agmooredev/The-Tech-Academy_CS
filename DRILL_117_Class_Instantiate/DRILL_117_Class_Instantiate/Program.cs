@@ -14,12 +14,12 @@ namespace DRILL_117_Class_Instantiate
             Console.WriteLine("Choose an integer to divide by 2");
             int inputNum = Convert.ToInt32(Console.ReadLine());
 
-            Method num = new Method(); //INSTANTIATE CLASS
+            Operations num = new Operations(); //INSTANTIATE CLASS
             num.divByTwo(inputNum); // DIVIDE INPUT BY 2
             Console.WriteLine("Press enter to continue..");
             Console.ReadLine();
 
-            Method num2 = new Method(); //2ND INSTANTIATION FOR CLASS "INTEGER"
+            Operations num2 = new Operations(); //2ND INSTANTIATION FOR CLASS
             int a, b;
             num2.Output(out a, out b); //OUTPUT PARAMATERS
             Console.WriteLine("The Value of a is: {0}", a);
@@ -28,8 +28,13 @@ namespace DRILL_117_Class_Instantiate
             Console.WriteLine("Press enter to continue..");
             Console.ReadLine();
 
-            Method.Overload("string");
+            
+            TheLastClass.Overload("string");
+            
             Console.ReadLine();
+
+         
+
         }
     }
 }
