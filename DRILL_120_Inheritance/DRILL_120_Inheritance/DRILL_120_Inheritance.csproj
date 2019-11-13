@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5C8996BF-6BF6-45C8-A30A-910AB6FCEFE5}</ProjectGuid>
+    <ProjectGuid>{09DA1783-B0C3-42F5-A9E0-B2FFC581FB68}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DRILL_124_Inheritence</RootNamespace>
-    <AssemblyName>DRILL_124_Inheritence</AssemblyName>
+    <RootNamespace>DRILL_120_Inheritance</RootNamespace>
+    <AssemblyName>DRILL_120_Inheritance</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Person.cs" />
+    <Compile Include="Employee.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

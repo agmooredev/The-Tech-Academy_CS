@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DRILL_124_Inheritence")]
+[assembly: AssemblyTitle("DRILL_120_Inheritance")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DRILL_124_Inheritence")]
+[assembly: AssemblyProduct("DRILL_120_Inheritance")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("5c8996bf-6bf6-45c8-a30a-910ab6fcefe5")]
+[assembly: Guid("09da1783-b0c3-42f5-a9e0-b2ffc581fb68")]
 
 // Version information for an assembly consists of the following four values:
 //
