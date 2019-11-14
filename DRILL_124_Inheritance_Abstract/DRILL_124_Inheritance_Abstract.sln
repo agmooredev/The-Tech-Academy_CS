@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DRILL_124_Inheritence", "DRILL_124_Inheritence\DRILL_124_Inheritence.csproj", "{5C8996BF-6BF6-45C8-A30A-910AB6FCEFE5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DRILL_124_Inheritance_Abstract", "DRILL_124_Inheritance_Abstract\DRILL_124_Inheritance_Abstract.csproj", "{C624AF21-5FA0-49C0-BC70-989C533274DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5C8996BF-6BF6-45C8-A30A-910AB6FCEFE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5C8996BF-6BF6-45C8-A30A-910AB6FCEFE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5C8996BF-6BF6-45C8-A30A-910AB6FCEFE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5C8996BF-6BF6-45C8-A30A-910AB6FCEFE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C624AF21-5FA0-49C0-BC70-989C533274DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C624AF21-5FA0-49C0-BC70-989C533274DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C624AF21-5FA0-49C0-BC70-989C533274DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C624AF21-5FA0-49C0-BC70-989C533274DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {720BF513-2B79-4DD3-9032-6E5592891A37}
+		SolutionGuid = {366F2887-9AA2-4E96-BCC0-43A9AD25EA06}
 	EndGlobalSection
 EndGlobal
