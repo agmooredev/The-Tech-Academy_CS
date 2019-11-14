@@ -9,12 +9,12 @@ namespace DRILL_120_Inheritance
     public class Person
     {
         //PROPERTIES OF CLASS 'PERSON'
-        public string FirstName; 
-        public string LastName; 
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
 
-        public void SayName()
+            public void SayName()
         {
-            Console.WriteLine("First Name: " + FirstName);
+            Console.WriteLine("First Name: " + FirstName); 
             Console.WriteLine("Last Name: " + LastName);
 
           
