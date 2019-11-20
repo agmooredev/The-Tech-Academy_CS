@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{983BD9C6-A77B-4981-A7DD-5105EBAD2988}</ProjectGuid>
+    <ProjectGuid>{97340242-0ED1-4A64-8DF3-1B97E8E3B872}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DRILL_131_Generics</RootNamespace>
-    <AssemblyName>DRILL_131_Generics</AssemblyName>
+    <RootNamespace>DRILL_134_Enums</RootNamespace>
+    <AssemblyName>DRILL_134_Enums</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GenLists.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
