@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace TwentyOneGame
 {
-    class TwentyOneDealer
-    {
+    
+    
         public class TwentyOneDealer : Dealer
         {
             public List<Card> Hand { get; set; }
@@ -16,4 +16,4 @@ namespace TwentyOneGame
 
         }
     }
-}
+
