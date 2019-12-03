@@ -8,7 +8,7 @@ namespace TwentyOneGame
 {
 
 
-    public class Card
+    public struct Card
     {
         public string Suit { get; set; }
         public string Face { get; set; }

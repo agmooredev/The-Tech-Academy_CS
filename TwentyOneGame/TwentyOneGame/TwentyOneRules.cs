@@ -27,7 +27,7 @@ namespace TwentyOneGame
 
         private static int[] GetAllPossibleHandValues(List<Card> Hand)
         {
-            int aceCount = Hand.Count(x => x.Face == Face.Ace.ToString());
+            int aceCount = Hand.Count(x => x.Face == Face.Ace);
             int[] result = new int[aceCount + 1];
             int value = Hand.Sum(x => _cardValues[x.Face]);
             result[0] = value;

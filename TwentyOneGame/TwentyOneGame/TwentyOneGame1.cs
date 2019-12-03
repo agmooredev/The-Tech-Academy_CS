@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace TwentyOneGame
 {
-    public class TwentyOneGame : Game
+    public class TwentyOneGame : Game, IWalkAway
     {
         public TwentyOneDealer Dealer { get; set; }
         public override void Play()
