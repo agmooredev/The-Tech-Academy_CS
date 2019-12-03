@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace TwentyOneGame
 {
-    class Dealer
-    {
+        public class Dealer
+        {
         public string Name { get; set; }
         public Deck Deck { get; set; }
         public int Balance { get; set; }

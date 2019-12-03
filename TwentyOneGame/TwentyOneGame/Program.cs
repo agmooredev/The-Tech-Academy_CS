@@ -11,7 +11,7 @@ namespace TwentyOneGame
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Welcom to the Grand Hotel and Casino. Let's start by telling me your name.");
+            Console.WriteLine("Welcome to the Grand Hotel and Casino. Let's start by telling me your name.");
             string playerName = Console.ReadLine();
 
             Console.WriteLine("And how much money did you bring today?");
@@ -22,7 +22,7 @@ namespace TwentyOneGame
             if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")
             {
                 Player player = new Player(playerName, bank);
-                Game game = new TwentyOneGame1();
+                Game game = new TwentyOneGame();
                 game += player;
                 player.isActivelyPlaying = true;
                 while (player.isActivelyPlaying && player.Balance > 0)
