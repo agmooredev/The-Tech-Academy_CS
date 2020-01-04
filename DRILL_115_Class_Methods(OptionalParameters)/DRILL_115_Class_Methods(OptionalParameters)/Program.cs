@@ -20,14 +20,14 @@ namespace DRILL_115_Class_Methods_OptionalParameters_
 
             if (int.TryParse(inputOptional, out int optInteger))
             {
-                
+
                 Console.WriteLine(method.Add(optInteger, inputOne));
-                }
+            }
 
             else
-            { 
+
             Console.WriteLine(method.Add(inputOne));
-            }
+
             Console.ReadLine();
 
         }
