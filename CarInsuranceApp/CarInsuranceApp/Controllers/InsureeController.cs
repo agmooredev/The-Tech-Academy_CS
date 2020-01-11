@@ -8,7 +8,7 @@ using System.Web;
 using System.Web.Mvc;
 using CarInsuranceApp.Models;
 
-namespace CarInsuranceApp.Controllers
+namespace CarInsurance2.Controllers
 {
     public class InsureeController : Controller
     {
@@ -19,6 +19,12 @@ namespace CarInsuranceApp.Controllers
         {
             return View(db.Insurees.ToList());
         }
+
+        public ActionResult Admin()
+        {
+            return View(db.Insurees.ToList());
+        }
+
 
         // GET: Insuree/Details/5
         public ActionResult Details(int? id)
@@ -35,11 +41,14 @@ namespace CarInsuranceApp.Controllers
             return View(insuree);
         }
 
+
+
         // GET: Insuree/Create
         public ActionResult Create()
         {
             return View();
         }
+
 
         // POST: Insuree/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
@@ -59,17 +68,7 @@ namespace CarInsuranceApp.Controllers
                 quote += 100;
             }
 
-            if (DateTime.Now.Year - insuree.DateOfBirth.Year > 100)
-            {
-                quote += 100;
-            }
-
             if (insuree.CarYear < 2000)
-            {
-                quote += 25;
-            }
-
-            if (insuree.CarYear > 2015 == insuree.CarYear > 25)
             {
                 quote += 25;
             }
@@ -77,11 +76,9 @@ namespace CarInsuranceApp.Controllers
             if (insuree.CarMake.ToLower() == "Porsche")
             {
                 quote += 25;
-            
-
-            if (insuree.CarModel.ToLower() == "911 Carrera")
-                { 
-                  quote += 25;
+                if (insuree.CarModel.ToLower() == "911 Carrera")
+                {
+                    quote += 25;
                 }
             }
 
@@ -100,6 +97,7 @@ namespace CarInsuranceApp.Controllers
                 quote = quote * 0.5M + quote;
             }
             insuree.Quote = quote;
+
 
 
             if (ModelState.IsValid)
