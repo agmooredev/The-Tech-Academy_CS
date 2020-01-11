@@ -68,6 +68,11 @@ namespace CarInsurance2.Controllers
                 quote += 100;
             }
 
+            if (DateTime.Now.Year - insuree.DateOfBirth.Year > 100)
+            {
+                quote += 25;
+            }
+
             if (insuree.CarYear < 2000)
             {
                 quote += 25;
